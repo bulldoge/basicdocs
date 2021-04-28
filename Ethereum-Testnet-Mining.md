@@ -333,3 +333,9 @@ geth --datadir testnetdata/data00 init testnetdata/genesis.json
 nohup geth --cache 512 --miner.threads 1 --datadir testnetdata/data00 --networkid 8888 --nodiscover --port 40400 --verbosity 5 1>>testnetlog/log_data_err_00 2>>testnetlog/log_data_info_00 &
 
 ```
+
+## 十、补充目录
+
+Ethash DAG挖矿计算文件默认目录
+
+/Users/bulldoge/Library/Ethash
